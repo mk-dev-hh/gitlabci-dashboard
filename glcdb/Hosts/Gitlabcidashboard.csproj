@@ -1,0 +1,30 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+	
+	<ItemGroup>
+		<ProjectReference Include="..\..\Business\Business.csproj" />
+		<ProjectReference Include="..\..\Plugins\HttpGatewayApp\HttpGatewayApp.csproj" />
+		<ProjectReference Include="..\..\Plugins\WebApi\WebApi.csproj" />
+		<ProjectReference Include="..\..\Remote\Remote.csproj" />
+	</ItemGroup>
+	
+	<ItemGroup>
+	  <None Update="appsettings.json">
+	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	  </None>
+	  <None Update="appsettings.Development.json">
+	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	  </None>
+	  <None Update="log4net.config">
+	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	  </None>
+	</ItemGroup>
+	
+	<PropertyGroup>
+		<OutputType>Exe</OutputType>
+		<TargetFramework>netcoreapp3.1</TargetFramework>
+		<StartupObject>dvelop.Hosts.Gitlabcidashboard.Program</StartupObject>
+		<RootNamespace>dvelop.Hosts.Gitlabcidashboard</RootNamespace>
+	</PropertyGroup>
+  
+
+</Project>

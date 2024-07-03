@@ -1,0 +1,22 @@
+<ng-container [ngSwitch]="loadingState">
+  <div *ngSwitchCase="LoadingState.Finished" id="configurationContainer">
+
+    <div id="headerConfigPage">
+      <h1>Settings</h1>
+      <p>Here you can customize projects on your dashboard  </p>
+    </div>
+
+    <mat-accordion>
+      <dd-settings-dashboard-page (applyNewDashboardProjectsConfig)="applyNewDashboardProjectsConfig($event)" [appliedNow]="configurationDto.dashboardProjects"></dd-settings-dashboard-page>
+      <button mat-raised-button id="saveBtn" (click)="saveConfig()">Save</button>
+    </mat-accordion>
+  </div>
+
+  <dd-progress-indicator *ngSwitchCase="LoadingState.Loading" [restrictedWidth]="true" text="Aktivitäten werden geladen" class="center-content" i18n-text="Ladebalkentext@@activitiesViewerLoading"></dd-progress-indicator>
+
+  <div *ngSwitchCase="LoadingState.Error" class="center-content  center-content__childs">
+    <p class="mat-title">{{loadingError.title}}</p>
+    <p class="mat-subheading-2">{{loadingError.details}}</p>
+  </div>
+</ng-container>
+

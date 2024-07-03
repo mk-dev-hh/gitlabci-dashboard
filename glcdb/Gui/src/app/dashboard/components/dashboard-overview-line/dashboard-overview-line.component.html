@@ -1,0 +1,13 @@
+<ng-container [ngSwitch]="loadingState">
+  <div *ngSwitchCase="LoadingState.Finished" class="lineContainer">
+    <dd-dashboard-overview-item *ngFor="let pipeline of pipelines" [pipeline]="pipeline" class="projectListItem" ></dd-dashboard-overview-item>
+  </div>
+
+  <dd-progress-indicator *ngSwitchCase="LoadingState.Loading" [restrictedWidth]="true" text="{{project.name}} wird geladen"  class="center-content" i18n-text="Ladebalkentext@@activitiesViewerLoading"></dd-progress-indicator>
+
+  <div *ngSwitchCase="LoadingState.Error" class="center-content  center-content__childs">
+    <p class="mat-title">{{loadingError.title}}</p>
+    <p class="mat-subheading-2">{{loadingError.details}}</p>
+  </div>
+
+</ng-container>

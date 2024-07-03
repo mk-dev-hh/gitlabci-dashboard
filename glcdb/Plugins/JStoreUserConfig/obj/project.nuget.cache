@@ -1,0 +1,31 @@
+{
+  "version": 2,
+  "dgSpecHash": "EtBZXffIlW58sV2J7sIQ4JUuW9yovRfSZVwwGG1sjPxROv455HC52axzTpQRy+KyrS6kP6fb+NmVY8VzZzLnVA==",
+  "success": false,
+  "projectFilePath": "c:\\Users\\admin\\glcdb\\glcdb\\Plugins\\JStoreUserConfig\\JStoreUserConfig.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\admin\\.nuget\\packages\\microsoft.netcore.app.ref\\3.1.0\\microsoft.netcore.app.ref.3.1.0.nupkg.sha512",
+    "C:\\Users\\admin\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\3.1.0\\microsoft.windowsdesktop.app.ref.3.1.0.nupkg.sha512",
+    "C:\\Users\\admin\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.10\\microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "Не удалось найти пакет dvelop.jStoreClient. Пакеты с таким идентификатором отсутствуют в следующих источниках пакетов: nuget.org",
+      "libraryId": "dvelop.jStoreClient",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    },
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "Не удалось найти пакет dvelop.Common.Logging. Пакеты с таким идентификатором отсутствуют в следующих источниках пакетов: nuget.org",
+      "libraryId": "dvelop.Common.Logging",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    }
+  ]
+}

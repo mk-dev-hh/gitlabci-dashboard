@@ -1,0 +1,6 @@
+<div id="pipelineListItemContainer" [ngClass]='setContainerColor()'>
+  <span *ngFor="let columnValue of columnValues" class="pipelineListItem">
+    <div *ngIf="columnValues.indexOf(columnValue) === 2"  id="imgContainer"><img src="{{photo}}" width="38px"/></div> {{columnValue}}
+  </span>
+  <button mat-button [ngClass]='setButtonColor()'>VIEW</button>
+</div>

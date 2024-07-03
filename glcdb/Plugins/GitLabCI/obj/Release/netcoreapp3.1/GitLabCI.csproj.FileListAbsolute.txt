@@ -1,0 +1,14 @@
+C:\Users\mkab\Documents\GitLabCiDashboard\Plugins\GitLabCI\bin\Release\netcoreapp3.1\GitLabCI.deps.json
+C:\Users\mkab\Documents\GitLabCiDashboard\Plugins\GitLabCI\bin\Release\netcoreapp3.1\GitLabCI.dll
+C:\Users\mkab\Documents\GitLabCiDashboard\Plugins\GitLabCI\bin\Release\netcoreapp3.1\GitLabCI.pdb
+C:\Users\mkab\Documents\GitLabCiDashboard\Plugins\GitLabCI\bin\Release\netcoreapp3.1\Business.dll
+C:\Users\mkab\Documents\GitLabCiDashboard\Plugins\GitLabCI\bin\Release\netcoreapp3.1\Plugins.WebApi.dll
+C:\Users\mkab\Documents\GitLabCiDashboard\Plugins\GitLabCI\bin\Release\netcoreapp3.1\Business.pdb
+C:\Users\mkab\Documents\GitLabCiDashboard\Plugins\GitLabCI\bin\Release\netcoreapp3.1\Plugins.WebApi.pdb
+C:\Users\mkab\Documents\GitLabCiDashboard\Plugins\GitLabCI\obj\Release\netcoreapp3.1\GitLabCI.csprojAssemblyReference.cache
+C:\Users\mkab\Documents\GitLabCiDashboard\Plugins\GitLabCI\obj\Release\netcoreapp3.1\GitLabCI.AssemblyInfoInputs.cache
+C:\Users\mkab\Documents\GitLabCiDashboard\Plugins\GitLabCI\obj\Release\netcoreapp3.1\GitLabCI.AssemblyInfo.cs
+C:\Users\mkab\Documents\GitLabCiDashboard\Plugins\GitLabCI\obj\Release\netcoreapp3.1\GitLabCI.csproj.CoreCompileInputs.cache
+C:\Users\mkab\Documents\GitLabCiDashboard\Plugins\GitLabCI\obj\Release\netcoreapp3.1\GitLabCI.csproj.CopyComplete
+C:\Users\mkab\Documents\GitLabCiDashboard\Plugins\GitLabCI\obj\Release\netcoreapp3.1\GitLabCI.dll
+C:\Users\mkab\Documents\GitLabCiDashboard\Plugins\GitLabCI\obj\Release\netcoreapp3.1\GitLabCI.pdb

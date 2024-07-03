@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file source-language="de" datatype="plaintext" original="ng2.template" target-language="en">
+    <body>
+      <trans-unit id="rsDialogDismissChangesTitle" datatype="html">
+        <source>Ungespeicherte Daten</source>
+<target state="translated">Unsaved data</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/components/localize.component.ts</context>
+          <context context-type="linenumber">3</context>
+        </context-group>
+        <note priority="1" from="description">Dialog Titel</note>
+      </trans-unit>
+      <trans-unit id="rsDialogDismissChangesDetails" datatype="html">
+        <source>Einige Änderungen wurden noch nicht gespeichert. Möchte Sie die Seite trotzdem verlassen?</source>
+<target state="translated">Some changes were still not saved. Do you want to leave the page anyway?</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/components/localize.component.ts</context>
+          <context context-type="linenumber">4</context>
+        </context-group>
+        <note priority="1" from="description">Dialog Langtext</note>
+      </trans-unit>
+      <trans-unit id="rsDialogDismissChangesAccept" datatype="html">
+        <source>Seite verlassen</source>
+<target state="translated">Leave page</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/components/localize.component.ts</context>
+          <context context-type="linenumber">5</context>
+        </context-group>
+        <note priority="1" from="description">Dialog Accept-Button</note>
+      </trans-unit>
+      <trans-unit id="rsDialogDismissChangesClose" datatype="html">
+        <source>Auf Seite bleiben</source>
+<target state="translated">Stay on page</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/components/localize.component.ts</context>
+          <context context-type="linenumber">6</context>
+        </context-group>
+        <note priority="1" from="description">Dialog Abort-Button</note>
+      </trans-unit>
+      <trans-unit id="errorGeneralUnknownErrorTitle" datatype="html">
+        <source>Unbekannter Fehler</source>
+<target state="translated">Unknown error</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/components/localize.component.ts</context>
+          <context context-type="linenumber">7</context>
+        </context-group>
+        <note priority="1" from="description">Fehlermeldung Überschrift</note>
+      </trans-unit>
+      <trans-unit id="errorGeneralUnknownErrorDetails" datatype="html">
+        <source>Es ist ein unbekannter Fehler aufgetreten</source>
+<target state="translated">An unknown error occured.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/components/localize.component.ts</context>
+          <context context-type="linenumber">8</context>
+        </context-group>
+        <note priority="1" from="description">Fehlermeldung Langtext</note>
+      </trans-unit>
+      <trans-unit id="errorGeneralSessionExpiredTitle" datatype="html">
+        <source>Sitzung abgelaufen</source>
+<target state="translated">Session expired</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/components/localize.component.ts</context>
+          <context context-type="linenumber">9</context>
+        </context-group>
+        <note priority="1" from="description">Fehlermeldung Überschrift</note>
+      </trans-unit>
+      <trans-unit id="errorGeneralSessionExpiredDetails" datatype="html">
+        <source>Ihre aktuelle Sitzung ist abgelaufen. Laden Sie die Seite neu, um sich erneut anzumelden.</source>
+<target state="translated">Your current session has expired. Reload the page to log in again.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/components/localize.component.ts</context>
+          <context context-type="linenumber">10</context>
+        </context-group>
+        <note priority="1" from="description">Fehlermeldung Langtext</note>
+      </trans-unit>
+      <trans-unit id="errorGeneralResourceNotFoundTitle" datatype="html">
+        <source>Die Seite existiert nicht</source>
+<target state="translated">The page does not exists</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/components/localize.component.ts</context>
+          <context context-type="linenumber">11</context>
+        </context-group>
+        <note priority="1" from="description">Fehlermeldung Überschrift</note>
+      </trans-unit>
+      <trans-unit id="errorGeneralResourceNotFoundDetails" datatype="html">
+        <source>Die angegebene URL funktioniert nicht mehr.</source>
+<target state="translated">The specified URL does not work anymore.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/components/localize.component.ts</context>
+          <context context-type="linenumber">12</context>
+        </context-group>
+        <note priority="1" from="description">Fehlermeldung Langtext</note>
+      </trans-unit>
+      <trans-unit id="idTextCode" datatype="html">
+        <source>Ein Text mit Übersetzung im Code</source>
+<target state="translated">A text with translation in the code.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/components/localize.component.ts</context>
+          <context context-type="linenumber">15</context>
+        </context-group>
+        <note priority="1" from="description">Eine Beschreibung</note>
+      </trans-unit>
+      <trans-unit id="rootIeBanner" datatype="html">
+        <source>Ihr Browser wird nicht unterstützt. Wir können nicht garantieren, dass alle Funktionen einwandfrei funktionieren. Bitte verwenden Sie einen anderen Browser.</source>
+<target state="translated">Your browser is not supported. We cannot guarantee that all functions will work properly. Please use another browser.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app/components/app.component.ts</context>
+          <context context-type="linenumber">3</context>
+        </context-group>
+        <note priority="1" from="description">Banner im Internet Explorer</note>
+      </trans-unit>
+      <trans-unit id="loadingScreenText" datatype="html">
+        <source>Bitte warten</source>
+<target state="translated">Please wait</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/components/loading-screen.component.ts</context>
+          <context context-type="linenumber">5</context>
+        </context-group>
+        <note priority="1" from="description">Text in der Ladeanzeige</note>
+      </trans-unit>
+      <trans-unit id="loadingScreenProgress" datatype="html">
+        <source>Fortschritt: <x id="INTERPOLATION" equiv-text="{{Progress | number:&quot;1.0-0&quot;}}"/>%</source>
+<target state="translated">Progress: <x id="INTERPOLATION" equiv-text="{{Progress | number:&quot;1.0-0&quot;}}"/>%</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/components/loading-screen.component.ts</context>
+          <context context-type="linenumber">10</context>
+        </context-group>
+        <note priority="1" from="description">Fortschrittsanzeige</note>
+      </trans-unit>
+      <trans-unit id="idTextTemplate" datatype="html">
+        <source>Ein Text mit Übersetzung im Template</source>
+<target state="translated">A text with translation in the template.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/dummy/components/dummy/dummy.component.html</context>
+          <context context-type="linenumber">8</context>
+        </context-group>
+        <note priority="1" from="description">Eine Beschreibung</note>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

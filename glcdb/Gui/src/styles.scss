@@ -1,0 +1,39 @@
+/* You can add global styles to this file, and also import other style files */
+
+@use 'theme/theme';
+
+
+* {
+  box-sizing: content-box;
+}
+
+html, body{
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  background-color: #484848;
+}
+
+.global-padding {
+  padding: 0 1em;
+
+  @media (max-width: 900px) {
+    padding: 0 0.5em;
+  }
+}
+
+.global-padding__right {
+  padding-right: 1em;
+
+  @media (max-width: 900px) {
+    padding-right: 0.5em;
+  }
+}
+
+.global-padding__left {
+  padding-left: 1em;
+
+  @media (max-width: 900px) {
+    padding-left: 0.5em;
+  }
+}

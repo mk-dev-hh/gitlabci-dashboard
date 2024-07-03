@@ -1,0 +1,27 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <RootNamespace>dvelop.Gui</RootNamespace>
+  </PropertyGroup>
+
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <OutputPath>bin\Debug</OutputPath>
+  </PropertyGroup>
+  
+  <ItemGroup>
+    <Content Include="*.*" />
+	<Content Include="src\**" />
+	<Content Remove="src\app\settings\.idea\**" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Remove="node_modules\**" />
+    <Content Remove="node_modules\**" />
+    <EmbeddedResource Remove="node_modules\**" />
+    <None Remove="node_modules\**" />
+    <Compile Remove="src\app\settings\.idea\**" />
+    <EmbeddedResource Remove="src\app\settings\.idea\**" />
+    <None Remove="src\app\settings\.idea\**" />
+  </ItemGroup>
+
+</Project>

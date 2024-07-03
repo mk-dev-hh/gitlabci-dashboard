@@ -1,0 +1,12 @@
+C:\Users\mkab\Documents\guardians-app-template-copy\Plugins\WebApi\bin\Debug\netstandard2.1\Plugins.WebApi.deps.json
+C:\Users\mkab\Documents\guardians-app-template-copy\Plugins\WebApi\bin\Debug\netstandard2.1\Plugins.WebApi.dll
+C:\Users\mkab\Documents\guardians-app-template-copy\Plugins\WebApi\bin\Debug\netstandard2.1\Plugins.WebApi.pdb
+C:\Users\mkab\Documents\guardians-app-template-copy\Plugins\WebApi\bin\Debug\netstandard2.1\Business.dll
+C:\Users\mkab\Documents\guardians-app-template-copy\Plugins\WebApi\bin\Debug\netstandard2.1\Business.pdb
+C:\Users\mkab\Documents\guardians-app-template-copy\Plugins\WebApi\obj\Debug\netstandard2.1\WebApi.csprojAssemblyReference.cache
+C:\Users\mkab\Documents\guardians-app-template-copy\Plugins\WebApi\obj\Debug\netstandard2.1\WebApi.AssemblyInfoInputs.cache
+C:\Users\mkab\Documents\guardians-app-template-copy\Plugins\WebApi\obj\Debug\netstandard2.1\WebApi.AssemblyInfo.cs
+C:\Users\mkab\Documents\guardians-app-template-copy\Plugins\WebApi\obj\Debug\netstandard2.1\WebApi.csproj.CoreCompileInputs.cache
+C:\Users\mkab\Documents\guardians-app-template-copy\Plugins\WebApi\obj\Debug\netstandard2.1\WebApi.csproj.CopyComplete
+C:\Users\mkab\Documents\guardians-app-template-copy\Plugins\WebApi\obj\Debug\netstandard2.1\Plugins.WebApi.dll
+C:\Users\mkab\Documents\guardians-app-template-copy\Plugins\WebApi\obj\Debug\netstandard2.1\Plugins.WebApi.pdb

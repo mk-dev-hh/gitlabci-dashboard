@@ -1,0 +1,21 @@
+<div id="filterContainer">
+  <mat-form-field class="inputField" appearance="fill">
+    <mat-label>ProjectId</mat-label>
+    <mat-select [formControl]="projectControl" required>
+      <mat-option *ngFor="let project of projects" (click)='navToProj(project.id)' [value]="project.name" >
+        {{project.name}}
+      </mat-option>
+    </mat-select>
+    <mat-error *ngIf="projectControl.hasError('required')">Wählen Sie eine ProjectID aus</mat-error>
+  </mat-form-field>
+
+  <mat-form-field class="inputField" appearance="fill">
+    <mat-label>Branch</mat-label>
+    <mat-select [formControl]="branchControl" required>
+      <mat-option *ngFor="let branch of branchesOfSelectedProject" [value]="branch.name" (click)='navToBranch(branch.name)'>
+        {{branch.name}}
+      </mat-option>
+    </mat-select>
+    <mat-error *ngIf="branchControl.hasError('required')">Wählen Sie einen Branch aus</mat-error>
+  </mat-form-field>
+</div>

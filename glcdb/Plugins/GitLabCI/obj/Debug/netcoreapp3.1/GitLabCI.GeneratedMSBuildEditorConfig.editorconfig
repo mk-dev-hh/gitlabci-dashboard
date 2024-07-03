@@ -1,0 +1,5 @@
+is_global = true
+build_property.RootNamespace = dvelop.Plugins.GitLabCI
+build_property.ProjectDir = C:\Users\admin\glcdb\glcdb\Plugins\GitLabCI\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 

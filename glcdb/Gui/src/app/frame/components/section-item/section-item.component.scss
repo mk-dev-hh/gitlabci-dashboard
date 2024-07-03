@@ -1,0 +1,20 @@
+.selectionItem{
+  width: 100%;
+  color: #f0f0f0;
+  font-size: 24px;
+  margin-bottom: 25px;
+  text-align: left;
+  transition-property: color;
+  transition-duration: 350ms;
+  &:hover{
+    color: #ff5722;
+  }
+}
+
+.mat-icon {
+  vertical-align: center;
+  font-size: 28px;
+  width: 32px;
+  height: 32px;
+  margin-right: 10px;
+}

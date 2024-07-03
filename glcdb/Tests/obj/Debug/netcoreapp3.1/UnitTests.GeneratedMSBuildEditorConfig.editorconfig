@@ -1,0 +1,5 @@
+is_global = true
+build_property.RootNamespace = dvelop.Tests.UnitTests
+build_property.ProjectDir = c:\Users\admin\glcdb\glcdb\Tests\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 

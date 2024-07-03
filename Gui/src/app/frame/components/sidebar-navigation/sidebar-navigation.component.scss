@@ -1,0 +1,67 @@
+#toolbarContent{
+  margin-left: 0px;
+}
+
+.sidenav-container {
+  height: 100%;
+  background-color: #484848;
+  position: fixed;
+  width: 100%;
+}
+
+mat-sidenav {
+  background-color: #484848;
+  color: #f0f0f0;
+  width: 250px;
+  margin-top: 64px;
+  display: flex;
+}
+
+#selections{
+  display: flex;
+  flex-direction: column;
+  width: 95%;
+  margin: auto;
+}
+
+.mat-drawer.mat-drawer-push{
+  background-color: #484848;
+}
+
+.mat-toolbar.mat-primary {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
+mat-toolbar{
+  background-color: #212121;
+  color: #f0f0f0;
+  padding: 0;
+}
+
+.mat-icon {
+  vertical-align: bottom;
+  font-size: 28px;
+  width: 32px;
+  height: 28px;
+  color: #29b6f6;
+}
+
+svg{
+  fill: #29b6f6;
+}
+
+#svgTwo{
+  margin-left: auto;
+}
+
+@media (max-width: 600px){
+  mat-sidenav{
+    margin-top: 56px;
+  }
+}
+
+mat-sidenav-content{
+  background-color: #e1e2e1;
+}

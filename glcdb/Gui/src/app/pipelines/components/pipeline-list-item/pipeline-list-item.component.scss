@@ -1,0 +1,66 @@
+#pipelineListItemContainer{
+  margin: 25px auto auto;
+  width: 90%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-family: Roboto, 'Helvetica Neue', sans-serif;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+.pipelineListItem{
+  flex: 1;
+  align-self: center;
+}
+
+#imgContainer{
+  display: inline-flex;
+  vertical-align: middle;
+}
+
+button{
+  color: #ffffff;
+  margin: auto;
+  border-width: medium;
+  max-height: 30px;
+}
+
+.failedButton {
+  background-color: #BA000D;
+}
+
+.unknownButton{
+  background-color: #263238;
+}
+
+.successButton{
+  background-color: #087F23;
+}
+
+.failedContainer{
+  background-color: #FF7961;
+}
+
+.unknownContainer{
+  background-color: #9e9e9e;
+}
+
+.successContainer{
+  background-color: #80E27E;
+}
+
+.runningButton{
+  background-color: #0a59a1;
+}
+
+.runningContainer{
+  background-color: #1b81bd;
+}
+.manualButton{
+  background-color: goldenrod;
+}
+
+.manualContainer{
+  background-color: gold;
+}

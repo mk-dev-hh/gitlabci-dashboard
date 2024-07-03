@@ -1,0 +1,503 @@
+{
+  "format": 1,
+  "restore": {
+    "c:\\Users\\admin\\glcdb\\glcdb\\Remote\\Remote.csproj": {}
+  },
+  "projects": {
+    "c:\\Users\\admin\\glcdb\\glcdb\\Business\\Business.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "c:\\Users\\admin\\glcdb\\glcdb\\Business\\Business.csproj",
+        "projectName": "Business",
+        "projectPath": "c:\\Users\\admin\\glcdb\\glcdb\\Business\\Business.csproj",
+        "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
+        "outputPath": "c:\\Users\\admin\\glcdb\\glcdb\\Business\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "noWarn": [
+            "NU1605"
+          ],
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "dependencies": {
+            "dvelop.Common.Logging": {
+              "target": "Package",
+              "version": "[3.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Users\\admin\\scoop\\apps\\dotnet-sdk\\current\\sdk\\8.0.204\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "c:\\Users\\admin\\glcdb\\glcdb\\Plugins\\GitLabCI\\GitLabCI.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "c:\\Users\\admin\\glcdb\\glcdb\\Plugins\\GitLabCI\\GitLabCI.csproj",
+        "projectName": "GitLabCI",
+        "projectPath": "c:\\Users\\admin\\glcdb\\glcdb\\Plugins\\GitLabCI\\GitLabCI.csproj",
+        "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
+        "outputPath": "c:\\Users\\admin\\glcdb\\glcdb\\Plugins\\GitLabCI\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "c:\\Users\\admin\\glcdb\\glcdb\\Business\\Business.csproj": {
+                "projectPath": "c:\\Users\\admin\\glcdb\\glcdb\\Business\\Business.csproj"
+              },
+              "c:\\Users\\admin\\glcdb\\glcdb\\Plugins\\WebApi\\WebApi.csproj": {
+                "projectPath": "c:\\Users\\admin\\glcdb\\glcdb\\Plugins\\WebApi\\WebApi.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[3.1.10, 3.1.10]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[3.1.0, 3.1.0]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[3.1.0, 3.1.0]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Users\\admin\\scoop\\apps\\dotnet-sdk\\current\\sdk\\8.0.204\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "c:\\Users\\admin\\glcdb\\glcdb\\Plugins\\JStoreUserConfig\\JStoreUserConfig.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "c:\\Users\\admin\\glcdb\\glcdb\\Plugins\\JStoreUserConfig\\JStoreUserConfig.csproj",
+        "projectName": "JStoreUserConfig",
+        "projectPath": "c:\\Users\\admin\\glcdb\\glcdb\\Plugins\\JStoreUserConfig\\JStoreUserConfig.csproj",
+        "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
+        "outputPath": "c:\\Users\\admin\\glcdb\\glcdb\\Plugins\\JStoreUserConfig\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "c:\\Users\\admin\\glcdb\\glcdb\\Business\\Business.csproj": {
+                "projectPath": "c:\\Users\\admin\\glcdb\\glcdb\\Business\\Business.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "dvelop.jStoreClient": {
+              "target": "Package",
+              "version": "[1.1.25, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[3.1.10, 3.1.10]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[3.1.0, 3.1.0]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[3.1.0, 3.1.0]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Users\\admin\\scoop\\apps\\dotnet-sdk\\current\\sdk\\8.0.204\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "c:\\Users\\admin\\glcdb\\glcdb\\Plugins\\Translations\\Translations.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "c:\\Users\\admin\\glcdb\\glcdb\\Plugins\\Translations\\Translations.csproj",
+        "projectName": "Translations",
+        "projectPath": "c:\\Users\\admin\\glcdb\\glcdb\\Plugins\\Translations\\Translations.csproj",
+        "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
+        "outputPath": "c:\\Users\\admin\\glcdb\\glcdb\\Plugins\\Translations\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "c:\\Users\\admin\\glcdb\\glcdb\\Business\\Business.csproj": {
+                "projectPath": "c:\\Users\\admin\\glcdb\\glcdb\\Business\\Business.csproj"
+              },
+              "c:\\Users\\admin\\glcdb\\glcdb\\Plugins\\WebApi\\WebApi.csproj": {
+                "projectPath": "c:\\Users\\admin\\glcdb\\glcdb\\Plugins\\WebApi\\WebApi.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "noWarn": [
+            "NU1605"
+          ],
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "dependencies": {
+            "dvelop.Common.Logging": {
+              "target": "Package",
+              "version": "[3.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Users\\admin\\scoop\\apps\\dotnet-sdk\\current\\sdk\\8.0.204\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "c:\\Users\\admin\\glcdb\\glcdb\\Plugins\\WebApi\\WebApi.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "c:\\Users\\admin\\glcdb\\glcdb\\Plugins\\WebApi\\WebApi.csproj",
+        "projectName": "Plugins.WebApi",
+        "projectPath": "c:\\Users\\admin\\glcdb\\glcdb\\Plugins\\WebApi\\WebApi.csproj",
+        "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
+        "outputPath": "c:\\Users\\admin\\glcdb\\glcdb\\Plugins\\WebApi\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "c:\\Users\\admin\\glcdb\\glcdb\\Business\\Business.csproj": {
+                "projectPath": "c:\\Users\\admin\\glcdb\\glcdb\\Business\\Business.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "dependencies": {
+            "Microsoft.AspNet.WebApi.Client": {
+              "target": "Package",
+              "version": "[5.2.7, )"
+            },
+            "Microsoft.AspNetCore.Http.Abstractions": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[3.1.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Users\\admin\\scoop\\apps\\dotnet-sdk\\current\\sdk\\8.0.204\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "c:\\Users\\admin\\glcdb\\glcdb\\Remote\\Remote.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "c:\\Users\\admin\\glcdb\\glcdb\\Remote\\Remote.csproj",
+        "projectName": "Remote",
+        "projectPath": "c:\\Users\\admin\\glcdb\\glcdb\\Remote\\Remote.csproj",
+        "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
+        "outputPath": "c:\\Users\\admin\\glcdb\\glcdb\\Remote\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "c:\\Users\\admin\\glcdb\\glcdb\\Business\\Business.csproj": {
+                "projectPath": "c:\\Users\\admin\\glcdb\\glcdb\\Business\\Business.csproj"
+              },
+              "c:\\Users\\admin\\glcdb\\glcdb\\Plugins\\GitLabCI\\GitLabCI.csproj": {
+                "projectPath": "c:\\Users\\admin\\glcdb\\glcdb\\Plugins\\GitLabCI\\GitLabCI.csproj"
+              },
+              "c:\\Users\\admin\\glcdb\\glcdb\\Plugins\\JStoreUserConfig\\JStoreUserConfig.csproj": {
+                "projectPath": "c:\\Users\\admin\\glcdb\\glcdb\\Plugins\\JStoreUserConfig\\JStoreUserConfig.csproj"
+              },
+              "c:\\Users\\admin\\glcdb\\glcdb\\Plugins\\Translations\\Translations.csproj": {
+                "projectPath": "c:\\Users\\admin\\glcdb\\glcdb\\Plugins\\Translations\\Translations.csproj"
+              },
+              "c:\\Users\\admin\\glcdb\\glcdb\\Plugins\\WebApi\\WebApi.csproj": {
+                "projectPath": "c:\\Users\\admin\\glcdb\\glcdb\\Plugins\\WebApi\\WebApi.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Dvelop.Sdk.Base.Dto": {
+              "target": "Package",
+              "version": "[0.0.3.74-prerelease, )"
+            },
+            "Dvelop.Sdk.Config.Dto": {
+              "target": "Package",
+              "version": "[0.0.3.74-prerelease, )"
+            },
+            "Dvelop.Sdk.Home.Dto": {
+              "target": "Package",
+              "version": "[0.0.3.74-prerelease, )"
+            },
+            "Dvelop.Sdk.IdentityProvider.Middleware": {
+              "target": "Package",
+              "version": "[0.0.3.74-prerelease, )"
+            },
+            "Dvelop.Sdk.TenantMiddleware": {
+              "target": "Package",
+              "version": "[0.0.3.74-prerelease, )"
+            },
+            "dvelop.Common.Logging": {
+              "target": "Package",
+              "version": "[3.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[3.1.10, 3.1.10]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[3.1.0, 3.1.0]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[3.1.0, 3.1.0]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Users\\admin\\scoop\\apps\\dotnet-sdk\\current\\sdk\\8.0.204\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>netcoreapp3.1</TargetFramework>
+      <RootNamespace>dvelop.Plugins.JStoreUserConfig</RootNamespace>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="dvelop.jStoreClient" Version="1.1.25" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\..\Business\Business.csproj" />
+    </ItemGroup>
+
+</Project>

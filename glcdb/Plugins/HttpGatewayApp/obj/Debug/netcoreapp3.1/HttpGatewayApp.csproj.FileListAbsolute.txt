@@ -1,0 +1,14 @@
+C:\Users\mkab\Documents\guardians-app-template-copy\Plugins\HttpGatewayApp\bin\Debug\netcoreapp3.1\Plugins.HttpGatewayApp.deps.json
+C:\Users\mkab\Documents\guardians-app-template-copy\Plugins\HttpGatewayApp\bin\Debug\netcoreapp3.1\Plugins.HttpGatewayApp.dll
+C:\Users\mkab\Documents\guardians-app-template-copy\Plugins\HttpGatewayApp\bin\Debug\netcoreapp3.1\Plugins.HttpGatewayApp.pdb
+C:\Users\mkab\Documents\guardians-app-template-copy\Plugins\HttpGatewayApp\bin\Debug\netcoreapp3.1\Business.dll
+C:\Users\mkab\Documents\guardians-app-template-copy\Plugins\HttpGatewayApp\bin\Debug\netcoreapp3.1\Plugins.WebApi.dll
+C:\Users\mkab\Documents\guardians-app-template-copy\Plugins\HttpGatewayApp\bin\Debug\netcoreapp3.1\Business.pdb
+C:\Users\mkab\Documents\guardians-app-template-copy\Plugins\HttpGatewayApp\bin\Debug\netcoreapp3.1\Plugins.WebApi.pdb
+C:\Users\mkab\Documents\guardians-app-template-copy\Plugins\HttpGatewayApp\obj\Debug\netcoreapp3.1\HttpGatewayApp.csprojAssemblyReference.cache
+C:\Users\mkab\Documents\guardians-app-template-copy\Plugins\HttpGatewayApp\obj\Debug\netcoreapp3.1\HttpGatewayApp.AssemblyInfoInputs.cache
+C:\Users\mkab\Documents\guardians-app-template-copy\Plugins\HttpGatewayApp\obj\Debug\netcoreapp3.1\HttpGatewayApp.AssemblyInfo.cs
+C:\Users\mkab\Documents\guardians-app-template-copy\Plugins\HttpGatewayApp\obj\Debug\netcoreapp3.1\HttpGatewayApp.csproj.CoreCompileInputs.cache
+C:\Users\mkab\Documents\guardians-app-template-copy\Plugins\HttpGatewayApp\obj\Debug\netcoreapp3.1\HttpGatewayApp.csproj.CopyComplete
+C:\Users\mkab\Documents\guardians-app-template-copy\Plugins\HttpGatewayApp\obj\Debug\netcoreapp3.1\Plugins.HttpGatewayApp.dll
+C:\Users\mkab\Documents\guardians-app-template-copy\Plugins\HttpGatewayApp\obj\Debug\netcoreapp3.1\Plugins.HttpGatewayApp.pdb

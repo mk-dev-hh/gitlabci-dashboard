@@ -1,0 +1,13 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>netcoreapp3.1</TargetFramework>
+        <RootNamespace>dvelop.Plugins.GitLabCI</RootNamespace>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\..\Business\Business.csproj" />
+      <ProjectReference Include="..\WebApi\WebApi.csproj" />
+    </ItemGroup>
+
+</Project>

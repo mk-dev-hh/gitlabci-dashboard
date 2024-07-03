@@ -1,0 +1,36 @@
+<mat-toolbar>
+  <svg width="64" height="64">
+    <polygon points="0,0 32,0 0,32" />
+  </svg>
+
+  <div id="toolbarContent">
+    <span><button
+        type="button"
+        aria-label="Toggle sidenav"
+        mat-icon-button
+        onclick="this.blur()"
+        (click)="drawer.toggle()"
+        *ngIf="mobileQuery.matches">
+      <mat-icon aria-label="Side nav toggle icon">menu</mat-icon>
+    </button>
+    Gitlab CI Dashboard</span>
+  </div>
+  <svg id="svgTwo" width="64" height="64">
+    <polygon points="64,64 32,64 64,32" />
+  </svg>
+
+</mat-toolbar>
+<mat-sidenav-container class="sidenav-container">
+  <mat-sidenav #drawer class="sidenav" fixedInViewport
+               [attr.role]="'navigation'"
+               [mode]="mobileQuery.matches ? 'push' : 'side'"
+               [opened]="mobileQuery.matches === false">
+    <mat-nav-list>
+      <dd-sections id="selections"></dd-sections>
+    </mat-nav-list>
+  </mat-sidenav>
+  <mat-sidenav-content>
+    <ng-content ></ng-content>
+  </mat-sidenav-content>
+</mat-sidenav-container>
+

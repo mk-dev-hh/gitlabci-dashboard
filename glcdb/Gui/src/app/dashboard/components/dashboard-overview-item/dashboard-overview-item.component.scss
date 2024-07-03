@@ -1,0 +1,79 @@
+.failed{
+  color: #ff867f;
+}
+
+.success{
+  color: #80e27e;
+}
+
+.other{
+  color: #002f6c;
+}
+
+.cardItem{
+  word-break: break-word;
+}
+
+mat-card-actions{
+  text-align: right;
+}
+
+/*.failedBorder{
+  border: 2px solid #d50000;
+}
+
+.successBorder{
+  border: 2px solid #00c853;
+}
+
+.otherBorder{
+  border: 2px solid #002f6c;
+}*/
+
+.failedButton {
+  background-color: #BA000D;
+  color: #f0f0f0;
+}
+
+.unknownButton{
+  background-color: #263238;
+  color: #f0f0f0;
+}
+
+.successButton{
+  background-color: #087F23;
+  color: #f0f0f0;
+}
+
+.failedContainer{
+  background-color: #FF7961;
+}
+
+.unknownContainer{
+  background-color: #9e9e9e;
+}
+
+.successContainer{
+  background-color: #80E27E;
+}
+
+.runningButton{
+  background-color: #0a59a1;
+  color: #f0f0f0;
+}
+
+.runningContainer{
+  background-color: #1b81bd;
+}
+.manualButton{
+  background-color: goldenrod;
+}
+
+.manualContainer{
+  background-color: gold;
+}
+
+.notVisible{
+  visibility: hidden;
+  background-color: #e1e2e1;
+}

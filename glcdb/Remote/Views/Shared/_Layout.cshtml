@@ -1,0 +1,30 @@
+@using Microsoft.Extensions.Configuration
+@inject IConfiguration Configuration
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>@ViewData["Title"]</title>
+    <link rel="stylesheet" href="https://unpkg.com/normalize.css@8.0.1/normalize.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
+    <link rel="stylesheet" href="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.css">
+    <script src="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.js"></script>
+    <style type="text/css">
+         html, body {
+             --mdc-theme-primary: #1F89C3;
+             --mdc-theme-secondary: #333E48;
+         }
+
+         /*Workaround, damit die Labels von Textfeldern nicht in lila angezeigt werden. Siehe https://github.com/jamesmfriedman/rmwc/issues/276*/
+         .mdc-text-field--focused:not(.mdc-text-field--disabled) .mdc-floating-label {
+            color: var(--mdc-theme-primary);
+         }
+    </style>
+</head>
+
+<body class="mdc-typography" data-mode="@ViewData["DataMode"]">
+    @RenderBody()
+</body>
+</html>

@@ -1,0 +1,55 @@
+@model dvelop.Remote.Views.Root.RootModel
+@using dvelop.Business.TranslationService
+@using dvelop.Remote.Controller.Root
+@inject ITranslationService Translation
+@{
+    ViewData["Title"] = RootController.APP_NAME;
+    Layout = "_Layout";
+}
+
+<style type="text/css">
+    .main-content {
+        min-height: 30%;
+        padding: 0.5em 2em 2em;
+        display: flex;
+    }
+    @@media (max-width: 600px) {
+        .main-content {
+            flex-direction: column;
+        }
+        .mdc-list-item {
+            padding: 0;
+        }
+    }
+</style>
+
+<div class="resource" style="height: 100%">
+    <main class="resource-content" style="height: 100%; padding-left: 5vw; padding-right: 5vw; font-family: Roboto, sans-serif; display: flex; flex-direction: column;">
+
+        <p class="mdc-typography--headline4" style="margin-bottom: 0.25em;">@RootController.APP_NAME</p>
+
+        <div class="error mdc-elevation--z1 main-content">
+
+            <div style="flex-grow: 1">
+                <p class="mdc-typography--headline6">@Translation.Get("ROOT_PAGE_VERSION")</p>
+                <p class="mdc-typography--subtitle1">@Model.Version</p>
+            </div>
+            <div class="mdc-list">
+                <a class="mdc-list-item mdc-button" href="/" target="_top">
+                    <span class="mdc-list-item__graphic material-icons">home</span>
+                    @Translation.Get("ERROR_PAGE_LINK_HOME")
+                </a>
+            </div>
+        </div>
+
+        <div class="mdc-typography--caption" style="align-self: flex-end; margin-top: 0.25em;">
+
+            <svg xmlns="http://www.w3.org/2000/svg" style="height: 1em" viewBox="0 0 512 512">
+                <g fill="#bec3c8">
+                    <path d="M268.316 188.825H163.112c-29.857 0-42.743 12.455-42.743 43.73v109.7c0 22.748 15.73 41.13 34.924 41.13h112.314c24.878 0 42.2-19.803 42.2-46.816V231.132c0-29.853-12.348-42.308-41.492-42.308z"/><path d="M373.81 0v338.704c0 59.71-42.226 108.68-95.54 108.68H152.45c-46.21 0-96.082-34.755-96.082-101.575V222.604c0-62.558 37.788-97.78 104.608-97.78h129.85c10.338 0 18.982-7.99 18.982-18.327V0H0v512h512V0H373.81zm81.92 429.465c0 9.897-8.024 17.92-17.92 17.92h-28.16c-9.898 0-17.92-8.023-17.92-17.92v-28.16c0-9.897 8.022-17.92 17.92-17.92h28.16c9.896 0 17.92 8.023 17.92 17.92v28.16z"/>
+                </g>
+            </svg>
+            d.velop AG
+        </div>
+    </main>
+</div>

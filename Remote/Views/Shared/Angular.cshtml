@@ -1,0 +1,21 @@
+@using dvelop.Remote
+@using Microsoft.Extensions.Configuration
+@inject IConfiguration Configuration
+@using dvelop.Remote.Controller.Root
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <title>@RootController.APP_NAME</title>
+  <base href="/@Configuration.AppName()/">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/x-icon" href="@{if(Configuration.AppRemoteAssetUri() != ""){@Configuration.AppRemoteAssetUri()@Html.Raw("/")}}de/favicon.ico">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <script>window.nextGenerationApp = true;</script>
+  <script>window.ASSET_URI = '@{if(Configuration.AppRemoteAssetUri() != ""){@Configuration.AppRemoteAssetUri()@Html.Raw("/")}}de'; window.APP_NAME = '@Configuration.AppName()';</script>
+</head>
+<body>
+  <dd-root></dd-root>
+<script src="@{if(Configuration.AppRemoteAssetUri() != ""){@Configuration.AppRemoteAssetUri()@Html.Raw("/")}}de/runtime.js" defer></script><script src="@{if(Configuration.AppRemoteAssetUri() != ""){@Configuration.AppRemoteAssetUri()@Html.Raw("/")}}de/polyfills-es5.js" nomodule defer></script><script src="@{if(Configuration.AppRemoteAssetUri() != ""){@Configuration.AppRemoteAssetUri()@Html.Raw("/")}}de/polyfills.js" defer></script><script src="@{if(Configuration.AppRemoteAssetUri() != ""){@Configuration.AppRemoteAssetUri()@Html.Raw("/")}}de/styles.js" defer></script><script src="@{if(Configuration.AppRemoteAssetUri() != ""){@Configuration.AppRemoteAssetUri()@Html.Raw("/")}}de/vendor.js" defer></script><script src="@{if(Configuration.AppRemoteAssetUri() != ""){@Configuration.AppRemoteAssetUri()@Html.Raw("/")}}de/main.js" defer></script></body>
+</html>

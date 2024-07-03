@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>netstandard2.1</TargetFramework>
+        <RootNamespace>dvelop.Plugins.Translations</RootNamespace>
+		<NoWarn>$(NoWarn);NU1605</NoWarn>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\..\Business\Business.csproj" />
+      <ProjectReference Include="..\WebApi\WebApi.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="dvelop.Common.Logging" Version="3.0.3" />
+    </ItemGroup>
+
+</Project>

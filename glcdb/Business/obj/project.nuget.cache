@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "dgSpecHash": "eXEVm+gX179VDgEN448JBpRC8blg3YDyrVe6RQt0z/225uz7oy/oEGDdqqLyyViz6vwp3Uno/R0MP6rt2EB1Ag==",
+  "success": false,
+  "projectFilePath": "c:\\Users\\admin\\glcdb\\glcdb\\Business\\Business.csproj",
+  "expectedPackageFiles": [],
+  "logs": [
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "Не удалось найти пакет dvelop.Common.Logging. Пакеты с таким идентификатором отсутствуют в следующих источниках пакетов: nuget.org",
+      "libraryId": "dvelop.Common.Logging",
+      "targetGraphs": [
+        ".NETStandard,Version=v2.1"
+      ]
+    }
+  ]
+}

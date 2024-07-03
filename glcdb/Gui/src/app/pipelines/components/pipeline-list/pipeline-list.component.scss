@@ -1,0 +1,12 @@
+#columnContainer{
+  margin: auto auto auto 5%;
+  width: 86%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-family: Roboto, 'Helvetica Neue', sans-serif;
+  font-weight: 500;
+}
+.columnItem{
+  flex: 1;
+}

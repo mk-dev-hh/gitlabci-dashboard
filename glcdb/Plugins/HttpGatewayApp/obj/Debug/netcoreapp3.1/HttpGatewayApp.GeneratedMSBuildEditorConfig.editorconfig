@@ -1,0 +1,5 @@
+is_global = true
+build_property.RootNamespace = dvelop.Plugins.HttpGatewayApp
+build_property.ProjectDir = c:\Users\admin\glcdb\glcdb\Plugins\HttpGatewayApp\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 

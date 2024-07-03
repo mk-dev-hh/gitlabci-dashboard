@@ -1,0 +1,25 @@
+<mat-card class="cardItem" [ngClass]='setContainerColor()' >
+  <mat-card-header>
+    <mat-card-title>{{pipeline.projectName}}</mat-card-title>
+    <mat-card-subtitle>{{pipeline.category}}</mat-card-subtitle>
+  </mat-card-header>
+  <mat-card-content>
+    <div  *ngIf="pipeline.category != 'bamboo build' && !pipeline.status.includes('no qa') && !pipeline.status.includes('no develop'); else elseBlock">
+      <!--<p>Status: {{pipeline.status}}</p>-->
+      <!--<p>Branch: {{pipeline.ref}}</p>-->
+      <!--<p>Created at: {{pipeline.createdAt.split('.')[0].split('T')[0].split('-').reverse().join('.') + ' ' + pipeline.createdAt.split('.')[0].split('T')[1]}}</p>-->
+      <!--<p>Created at:{{pipeline.createdAt | date:'medium'}}</p>-->
+      <p *ngIf="pipeline.updatedAt != null && pipeline.updatedAt != undefined && pipeline.updatedAt != ''">Abgeschlossen am: {{pipeline.updatedAt | date:'medium'}}</p>
+      <!--<p>Finished at:{{pipeline.finishedAt | date:'medium'}}</p>-->
+      <!--<p>Updated at: {{pipeline.updatedAt.split('.')[0].split('T')[0].split('-').reverse().join('.') + ' ' + pipeline.updatedAt.split('.')[0].split('T')[1]}}</p>-->
+    </div>
+
+    <ng-template #elseBlock><div>
+      <p>Status: {{pipeline.status}}</p>
+    </div></ng-template>
+  </mat-card-content>
+  <mat-card-actions *ngIf="pipeline.ref != null && pipeline.ref != undefined && pipeline.ref != ''">
+    <a mat-raised-button [ngClass]='setButtonColor()' href="{{pipeline.webUrl}}">GitLab</a>
+    <button mat-raised-button [ngClass]='setButtonColor()' [routerLink]="['/pipelines/' + projectId + '/' + pipeline.ref.toLowerCase()]">Pipelines</button>
+  </mat-card-actions>
+</mat-card>

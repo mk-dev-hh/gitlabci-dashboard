@@ -1,0 +1,17 @@
+<dd-pipelines-filter
+  (listBranchPipelines)='listBranchPipelines($event)'
+  (updateProjectId)='updateProjectId($event)'
+>
+
+</dd-pipelines-filter>
+
+<div id="columnContainer">
+  <span *ngFor='let column of columns' class='columnItem' >{{column}}</span>
+</div>
+
+<dd-pipeline-list-item
+  *ngFor='let pipeline of pipelines'
+  [pipeline]='pipeline'
+  [projectId]='projectId'
+>
+</dd-pipeline-list-item>

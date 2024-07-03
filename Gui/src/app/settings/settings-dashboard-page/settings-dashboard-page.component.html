@@ -1,0 +1,36 @@
+<mat-expansion-panel expanded>
+  <mat-expansion-panel-header>
+    <mat-panel-title>
+      Dashboard
+    </mat-panel-title>
+    <mat-panel-description>
+      Projects
+    </mat-panel-description>
+  </mat-expansion-panel-header>
+  <ng-template matExpansionPanelContent>
+  <h3>Projects viewed on dashboard</h3>
+  <p>Here you can add projects to dashboard and remove them</p>
+    <mat-form-field aria-label="Projects available selection" id="availableProjectInputField">
+      <mat-label>Available Projects</mat-label>
+
+      <input type="text" matInput [formControl]="projectControl" [matAutocomplete]="auto" >
+      <mat-autocomplete #auto="matAutocomplete" autoActiveFirstOption>
+        <mat-option *ngFor="let project of filteredProjects | async" (click)="onAddToDashboard(project)" [value]="project.name">
+              {{project.name}}
+        </mat-option>
+      </mat-autocomplete>
+    </mat-form-field>
+
+    <p>Selected Projects:</p>
+    <mat-list aria-label="Projects new selection" id="dashboardProjectList">
+      <button class="projectBtn" mat-stroked-button *ngFor="let project of newConfig">
+        {{project.name}}
+        <mat-icon class="deleteIcon" (click)="onRemoveFromDashboard(project)">delete_outline</mat-icon>
+      </button>
+    </mat-list>
+
+    <mat-action-list>
+      <button mat-button (click)="onRestore()" id="restoreBtn" id="restoreButton">Restore last configuration</button>
+    </mat-action-list>
+  </ng-template>
+</mat-expansion-panel>

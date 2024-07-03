@@ -1,0 +1,12 @@
+C:\Users\mkab\Documents\GitLabCiDashboard\Plugins\JStoreUserConfig\bin\Release\netcoreapp3.1\JStoreUserConfig.deps.json
+C:\Users\mkab\Documents\GitLabCiDashboard\Plugins\JStoreUserConfig\bin\Release\netcoreapp3.1\JStoreUserConfig.dll
+C:\Users\mkab\Documents\GitLabCiDashboard\Plugins\JStoreUserConfig\bin\Release\netcoreapp3.1\JStoreUserConfig.pdb
+C:\Users\mkab\Documents\GitLabCiDashboard\Plugins\JStoreUserConfig\bin\Release\netcoreapp3.1\Business.dll
+C:\Users\mkab\Documents\GitLabCiDashboard\Plugins\JStoreUserConfig\bin\Release\netcoreapp3.1\Business.pdb
+C:\Users\mkab\Documents\GitLabCiDashboard\Plugins\JStoreUserConfig\obj\Release\netcoreapp3.1\JStoreUserConfig.csprojAssemblyReference.cache
+C:\Users\mkab\Documents\GitLabCiDashboard\Plugins\JStoreUserConfig\obj\Release\netcoreapp3.1\JStoreUserConfig.AssemblyInfoInputs.cache
+C:\Users\mkab\Documents\GitLabCiDashboard\Plugins\JStoreUserConfig\obj\Release\netcoreapp3.1\JStoreUserConfig.AssemblyInfo.cs
+C:\Users\mkab\Documents\GitLabCiDashboard\Plugins\JStoreUserConfig\obj\Release\netcoreapp3.1\JStoreUserConfig.csproj.CoreCompileInputs.cache
+C:\Users\mkab\Documents\GitLabCiDashboard\Plugins\JStoreUserConfig\obj\Release\netcoreapp3.1\JStoreUserConfig.csproj.CopyComplete
+C:\Users\mkab\Documents\GitLabCiDashboard\Plugins\JStoreUserConfig\obj\Release\netcoreapp3.1\JStoreUserConfig.dll
+C:\Users\mkab\Documents\GitLabCiDashboard\Plugins\JStoreUserConfig\obj\Release\netcoreapp3.1\JStoreUserConfig.pdb
